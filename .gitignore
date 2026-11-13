@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local test files
+jar.txt
+
+# keep the example env file in the repository (the .env* rule above ignores every .env file)
+!.env.example
